@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML DAY3</title>
+</head>
+<body>
+    <h3>Q1. Write a code to insert an image </h3>
+    <pre>
+        &lt;img src="eagle.jpg" alt="eagle image" width="200px"&gt;
+    </pre>
+    <b>Output-</b><br>
+    <img src="eagle.jpg" alt="eagle image" width="200px">
+    <hr>
+    <h3>Q2. Create a form contain input fields like name age email and contact</h3>
+    <pre>
+        &lt;form&gt;
+            &lt;input type="text" name="name" placeholder="Name" required&gt;<br>
+            &lt;input type="number" name="age" id="" placeholder="Age"&gt;<br>
+            &lt;input type="email" name="mail" id="" placeholder="Email"&gt;<br>
+            &lt;input type="tel" name="mobile" id="" placeholder="Contact" maxlength="10"&gt;
+        &lt;/form&gt;
+    </pre>
+    <b>Output-</b>
+    <form>
+        <input type="text" name="name" placeholder="Name" required><br>
+        <input type="number" name="age" id="" placeholder="Age"><br>
+        <input type="email" name="mail" id="" placeholder="Email"><br>
+        <input type="tel" name="mobile" id="" placeholder="Contact" maxlength="10">
+    </form>
+    <hr>
+    <h3>Q3. Create a table and explain how to acheive colspan</h3>
+    <p>Colspan is used to combine two columns together</p>
+    <pre>
+        &lt;table border=""&gt;
+            &lt;tr>
+                &lt;td colspan="2">Name&lt;/td&gt;
+                &lt;td>Age&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td>Dipendra&lt;/td&gt;
+                &lt;td>Singh&lt;/td&gt;
+                &lt;td>22&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;
+    </pre>
+    <b>Output-</b>
+        <table border="">
+            <tr>
+                <td colspan="2">Name</td>
+                <td>Age</td>
+            </tr>
+            <tr>
+                <td>Dipendra</td>
+                <td>Singh</td>
+                <td>22</td>
+            </tr>
+        </table>
+        <hr>
+        <h3>Q4. Create one form that contain name input, password input, 3 radio buttons(HTML,CSS,JS), 2 checkboxes(Male,Female) and one submit button . When you click on that button the value should be shown in the URL</h3>
+        <pre>
+            &lt;form&gt;
+                &lt;input type="text" name="name" placeholder="Name" required>&lt;br&gt;
+                &lt;input type="password" name="password" id="" placeholder="Password">&lt;br&gt;
+                &lt;input type="radio" name="language" id="html" value="html"&gt;
+                &lt;label for="html">HTML&lt;/label&gt;
+                &lt;input type="radio" name="language" id="css" value="css"&gt;
+                &lt;label for="css">CSS&lt;/label&gt;
+                &lt;input type="radio" name="language" id="js" value="js"&gt;
+                &lt;label for="js">JavaScript&lt;/label&gt;&lt;br&gt;
+                &lt;select name="gender" id="">
+                    &lt;option value="male"&gt;Male&lt;/option&gt;
+                    &lt;option value="female"&gt;Female&lt;/option&gt;
+                &lt;/select&gt;&lt;br&gt;
+                &lt;input type="submit" value="Submit"&gt;
+            &lt;/form&gt;
+        </pre>
+        <b>Output-</b>
+        <form>
+            <input type="text" name="name" placeholder="Name" required><br>
+            <input type="password" name="password" id="" placeholder="Password"><br>
+            <input type="radio" name="language" id="html" value="html">
+            <label for="html">HTML</label>
+            <input type="radio" name="language" id="css" value="css">
+            <label for="css">CSS</label>
+            <input type="radio" name="language" id="js" value="js">
+            <label for="js">JavaScript</label>
+            <br>
+
+            <select name="gender" id="">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br>
+            <input type="submit" value="Submit">
+        </form>
+</body>
+</html>
