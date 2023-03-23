@@ -59,7 +59,7 @@
             </tr>
         </table>
         <hr>
-        <h3>Q4. Create one form that contain name input, password input, 3 radio buttons(HTML,CSS,JS), 2 checkboxes(Male,Female) and one submit button . When you click on that button the value should be shown in the URL</h3>
+        <h3>Q4. Create one form that contain name input, password input, 3 radio buttons(HTML,CSS,JS), 2 checkboxes(cricket, footbal, hockey) and one submit button . When you click on that button the value should be shown in the URL</h3>
         <pre>
             &lt;form&gt;
                 &lt;input type="text" name="name" placeholder="Name" required>&lt;br&gt;
@@ -70,10 +70,12 @@
                 &lt;label for="css">CSS&lt;/label&gt;
                 &lt;input type="radio" name="language" id="js" value="js"&gt;
                 &lt;label for="js">JavaScript&lt;/label&gt;&lt;br&gt;
-                &lt;select name="gender" id="">
-                    &lt;option value="male"&gt;Male&lt;/option&gt;
-                    &lt;option value="female"&gt;Female&lt;/option&gt;
-                &lt;/select&gt;&lt;br&gt;
+                &lt;label for="cricket">Cricket&lt;/label&gt;
+                &lt;input type="checkbox" name="hobby" id="cricket" value="cricket"&gt;
+                &lt;label for="fb">Football&lt;/label&gt;
+                &lt;input type="checkbox" name="hobby" id="fb" value="Football"&gt;
+                &lt;label for="hy">Hockey&lt;/label&gt;
+                &lt;input type="checkbox" name="hobby" id="hy" value="Hockey"&gt; &lt;br&gt;
                 &lt;input type="submit" value="Submit"&gt;
             &lt;/form&gt;
         </pre>
@@ -89,10 +91,13 @@
             <label for="js">JavaScript</label>
             <br>
 
-            <select name="gender" id="">
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-            </select><br>
+            <label for="cricket">Cricket</label>
+            <input type="checkbox" name="hobby" id="cricket" value="cricket">
+            <label for="fb">Football</label>
+            <input type="checkbox" name="hobby" id="fb" value="Football">
+            <label for="hy">Hockey</label>
+            <input type="checkbox" name="hobby" id="hy" value="Hockey"> <br>
+
             <input type="submit" value="Submit">
         </form>
 </body>
